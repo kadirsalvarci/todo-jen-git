@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "master }
+    agent { label "master" }
     environment {
         ECR_REGISTRY = "644123363827.dkr.ecr.us-east-1.amazonaws.com"
         APP_REPO_NAME= "clarusway-repo/todo-app"
